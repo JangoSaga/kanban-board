@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const BoardContext = createContext();
 
 export const BoardProvider = ({ children }) => {
-  const API_URL = "https://rbtest.free.beeceptor.com/todo";
+  const API_URL = import.meta.env.VITE_API_URL;
   const [board, setBoard] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
