@@ -15,7 +15,7 @@ This is a Trello-inspired Kanban board application that allows users to manage t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kanban-board.git
+   git clone https://github.com/JangoSaga/kanban-board.git
    ```
 2. Navigate to the project directory:
    ```bash
